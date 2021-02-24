@@ -14,14 +14,30 @@ body {
 
 }
 
-
-h2 {
+h1, h2, h3 {
     font-family: 'Questrial', sans-serif;
 }
 
 
+h1 {
+    font-size: 3rem;
+}
+
+.anim-name {
+
+    display: flex;
+    align-self: flex-start;
+
+}
+
+
+h3{
+    background: rgba(206, 206, 206, .2);
+    width: 100%;
+}
+
 .solo {
-    height: 100vh;
+    height: 50vh;
     width: 100vw;
     display: flex;
     justify-content: center;
